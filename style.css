@@ -13,6 +13,19 @@
     text-transform: uppercase;
 }
 
+.btn-secondary {
+    display: inline-flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.12);
+
+}
+
 
 /* section 1 */
 header {
@@ -53,6 +66,7 @@ header .content-1 h3 {
 /* section 2 */
 .content-2 {
     text-align: center;
+    margin-top: 120px;
 }
 
 .offer {
@@ -89,7 +103,7 @@ header .content-1 h3 {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    display: block;
+    display: flex;
     margin: 120px auto;
 }
 
@@ -103,29 +117,19 @@ header .content-1 h3 {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    margin-bottom: 120x;
 }
 
 .content-3 .sub-title-3 {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
-    width: 697px;
-    margin-bottom: 48px;
 }
 
-.btn-secondary {
-    display: inline-flex;
-    padding: 10px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    background: rgba(255, 255, 255, 0.12);
-
+.right-img {
+    padding-top: 68px;
+    padding-right: 138px;
 }
+
 
 /* section 4 */
 .content-4 {
@@ -208,4 +212,64 @@ header .content-1 h3 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
+}
+
+
+/* section 8 */
+.content-8 {
+    background: rgba(237, 0, 102, 0.05);
+    border-radius: 16px;
+    width: 1320px;
+    height: 616px;
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.container-subs {
+}
+
+.subscribe {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.p-text-3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 212px;
+    margin-bottom: 48px;
+}
+
+.sub-input {
+    width: 438px;
+    height: 72px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 0 30px 0;
+    color: #0702114D;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-btn {
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-radius: 0px 50px 50px 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ED0066;
+    position: relative;
+    left: -5px;
 }
