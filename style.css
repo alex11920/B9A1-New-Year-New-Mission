@@ -174,14 +174,14 @@ header .content-1 h3 {
 
 }
 
-.col-1 .text-1 {
+.text-1 {
     color: #ED0066;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.col-1 .text-2 {
+.text-2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -215,6 +215,36 @@ header .content-1 h3 {
 }
 
 
+/* section 7 */
+.content-7 {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-7 .text-1 {
+    margin-bottom: 16px;
+}
+
+.content-7 .text-2 {
+    margin-bottom: 22px;
+}
+
+.content-7 .text-3 {
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    gap: 24px;
+}
+
+
 /* section 8 */
 .content-8 {
     background: rgba(237, 0, 102, 0.05);
@@ -227,9 +257,6 @@ header .content-1 h3 {
     margin-right: auto;
     padding-top: 80px;
     text-align: center;
-}
-
-.container-subs {
 }
 
 .subscribe {
@@ -272,4 +299,13 @@ header .content-1 h3 {
     background-color: #ED0066;
     position: relative;
     left: -5px;
+}
+
+
+/* footer */
+footer {
+    margin-top: 120px;
+    display: flex;
+    background-color: #070211;
+    height: 609px;
 }
