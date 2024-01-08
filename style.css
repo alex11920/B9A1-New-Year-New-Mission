@@ -2,9 +2,17 @@
     font-family: 'Inter', sans-serif;
 }
 
-main {
-    margin-top: 120px;
+.btn-primary {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #ED0066;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
+
 
 /* section 1 */
 header {
@@ -76,3 +84,128 @@ header .content-1 h3 {
 
 
 /* section 3 */
+.content-3 {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: block;
+    margin: 120px auto;
+}
+
+.insider-3 {
+    padding: 126px;
+    width: 697px;
+}
+
+.content-3 .title-2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 120x;
+}
+
+.content-3 .sub-title-3 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+    margin-bottom: 48px;
+}
+
+.btn-secondary {
+    display: inline-flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.12);
+
+}
+
+/* section 4 */
+.content-4 {
+    background: linear-gradient(180deg, rgba(237, 0, 102, 0.10) 0%, rgba(237, 0, 102, 0.00) 100%);
+    border-radius: 10px;
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdt {
+    padding-top: 100px;
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#join-now {
+    margin-top: 48px;
+}
+
+.pdt .pdt-head {
+    color: #ED0066;
+}
+
+
+/* section 5 */
+.content-5 {
+    margin-top: 230px;
+}
+
+.insider-5 {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: auto;
+
+}
+
+.col-1 .text-1 {
+    color: #ED0066;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.col-1 .text-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.text-3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.eclipse {
+    padding: 30px;
+    border: 15px solid #ED0066;
+    border-radius: 100%;
+}
+
+.text-3 {
+    width: 276px;
+    margin-bottom: 16px;
+}
+
+.year {
+    color: #ED0066;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
