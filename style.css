@@ -215,6 +215,10 @@ header .content-1 h3 {
 }
 
 
+/* section 6 */
+
+
+
 /* section 7 */
 .content-7 {
     margin-top: 120px;
@@ -308,4 +312,52 @@ footer {
     display: flex;
     background-color: #070211;
     height: 609px;
+    padding-top: 120px;
+    justify-content: center;
+    color: #FFF;
+}
+
+.content-9 {
+    width: 1320px;
+}
+
+.insider-footer {
+    display: flex;
+    gap: 560px;
+    margin-bottom: 50px;
+}
+
+
+.address {
+    width: 375px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.phone,
+.web {
+    display: flex;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social {
+    margin-top: 48px;
+    gap: 24px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.15);
+    border-width: 1px;
+}
+
+.insider-footer-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
